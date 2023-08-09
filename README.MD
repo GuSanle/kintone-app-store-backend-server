@@ -9,3 +9,7 @@ cp .env.sample .env
 ```
 serverless config credentials --provider aws --key xxx --secret xxx
 ```
+
+## info
+
+the role need AmazonS3FullAccess policies
